@@ -1,0 +1,30 @@
+{
+  "ef9481fe-f4e8-4096-b5fc-0e2ef0d61389": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1568/1.0.1568.2757/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://tatvasoft337.sharepoint.com/sites/SharepointSite": {
+        "dataSources": {
+          "Employee": {
+            "tableName": "5872fbb6-e623-421c-9a49-af312ea9f384"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Employee"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ef9481fe-f4e8-4096-b5fc-0e2ef0d61389"
+  }
+}
